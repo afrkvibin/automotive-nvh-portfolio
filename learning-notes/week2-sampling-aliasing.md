@@ -1,5 +1,8 @@
 # Week 2 – Sampling & Aliasing
 
+Demo notebook: [week2-aliasing-demo.ipynb](week2-aliasing-demo.ipynb)
+
+
 ## Sampling rate and Nyquist
 Sampling rate is the number of times you take a sample of a signal per second.
 
@@ -17,6 +20,21 @@ Aliasing basically is when you don't follow the Nyquist theorem so the reconstru
 - s: The SI base unit of time.
 - Pa: Measures pressure or stress—the amount of force applied uniformly over an area
 - m/s²: Measures acceleration—the rate at which an object's velocity changes over time.
+so that the continuous time analog signal can be reconstructed without information loss
+Frequency-number a cycles or repetitions per unit time
+
+amplitude - maximum displacement of the wave away from its equilibrium
+
+pahse - and angle like measure that will tell you the position of a wave in its cycle
+
+sample - is the value of a signal at a point in time or space
+
+Nyquist–Shannon sampling theorem - defines the minimal sampling rate needed in order to reconstruct a continuous time analog signal
+
+Time-domain signal is a representation of how a signal or quantity varies with time
+
+## Why sample at more than 2× the highest frequency?
+so that the continuous time analog signal can be reconstructed without information loss
 ## Solved examples
 **Example 1:** 700 Hz tone sampled at fs = 1000 Hz.
 - Nyquist frequency = fs / 2 = 500 Hz
