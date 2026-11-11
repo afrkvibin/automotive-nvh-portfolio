@@ -20,7 +20,6 @@ Aliasing basically is when you don't follow the Nyquist theorem so the reconstru
 - s: The SI base unit of time.
 - Pa: Measures pressure or stress—the amount of force applied uniformly over an area
 - m/s²: Measures acceleration—the rate at which an object's velocity changes over time.
-so that the continuous time analog signal can be reconstructed without information loss
 Frequency-number a cycles or repetitions per unit time
 
 amplitude - maximum displacement of the wave away from its equilibrium
